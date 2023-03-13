@@ -1,6 +1,20 @@
 html {
   scroll-behavior: smooth;
-  background-color: #E5E5E5;
+  background-color: #e5e5dc;
+}
+
+header {
+  color: white;
+  background-color: #26495c;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+  padding: 5px;
+
+  text-align: center;
+  background-color: #26495c;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.25), 0px -5px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
 body {
@@ -8,31 +22,29 @@ body {
   margin: 0 auto;
 
   background-color: white;
-}
-
-main {
-  height: 100vh;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .title {
-  &__main {
-    margin: 0;
-    padding: 10px;
-    text-align: center;
-  }
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.projects {
+  padding: 25px 50px;
 }
 
 .project {
   display: flex;
-  padding: 20px 50px;
+  padding: 10px 0;
 
   &__picture {
     width: 390px;
-    border-radius: 16px;
-    filter: drop-shadow(0px 5px 5px gray);
 
+    border-radius: 16px;
     transition: transform .3s;
+    filter: drop-shadow(0px 5px 5px gray);
 
     &:hover {
       cursor: pointer;
@@ -41,6 +53,12 @@ main {
   }
 
   &__content {
-    padding: 0 20px;
+    padding: 0 0 0 20px;
+  }
+}
+
+.social {
+  &__icon {
+    width: 40px;
   }
 }
