@@ -16,7 +16,31 @@ main {
 }
 
 .title {
-  margin: 0;
-  padding: 10px;
-  text-align: center;
+  &__main {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+.project {
+  display: flex;
+  padding: 20px 50px;
+
+  &__picture {
+    width: 390px;
+    border-radius: 16px;
+    filter: drop-shadow(0px 5px 5px gray);
+
+    transition: transform .3s;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.02);
+    }
+  }
+
+  &__content {
+    padding: 0 20px;
+  }
 }
