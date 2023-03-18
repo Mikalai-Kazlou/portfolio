@@ -58,7 +58,27 @@ body {
 }
 
 .social {
+  display: flex;
+}
+
+.social-link {
+  padding: 0 16px;
+
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    color: #e5e5dc;
+  }
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
   &__icon {
-    width: 40px;
+    height: 24px;
+    font-size: 24px;
   }
 }
