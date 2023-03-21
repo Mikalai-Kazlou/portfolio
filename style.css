@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  max-width: 1440px;
+  max-width: 1600px;
   margin: 0 auto;
   background-color: white;
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.25);
@@ -26,6 +26,16 @@ footer {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.25), 0 -0.5rem 0.5rem 0 rgba(0, 0, 0, 0.25);
 }
 
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  color: #c4a35a;
+}
+.link:active {
+  color: #c66b3d;
+}
+
 .title {
   margin: 0;
   padding: 1rem;
@@ -34,11 +44,15 @@ footer {
 }
 
 .projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 2.5rem 5rem;
 }
 
 .project {
   display: flex;
+  max-width: 74rem;
   padding: 1rem 0;
 }
 .project__image {
@@ -52,11 +66,19 @@ footer {
   cursor: pointer;
   transform: scale(1.02);
 }
+.project__link {
+  color: #c4a35a;
+}
 .project__content {
   padding: 0 0 0 2rem;
 }
 .project__title {
+  margin: 0.5rem 0 2rem 0;
   font-size: 2rem;
+  transition: filter 0.2s;
+}
+.project__title:hover {
+  filter: drop-shadow(0px 0.2rem 0.2rem rgb(220, 220, 220));
 }
 .project__text {
   font-size: 1.6rem;
@@ -69,10 +91,6 @@ footer {
 .social-link {
   padding: 0 1.6rem;
   color: white;
-  text-decoration: none;
-}
-.social-link:hover {
-  color: #e5e5dc;
 }
 
 .social-item {

@@ -25,8 +25,8 @@ function fillProject(uiProject, project) {
   uiElement = uiProject.querySelector(getClassName("title"));
   uiElement.textContent = project.title;
 
-  uiElement = uiProject.querySelector(getClassName("link"));
-  uiElement.href = project.link;
+  const uiProjectLinks = uiProject.querySelectorAll(getClassName("link"));
+  uiProjectLinks.forEach(uiLink => uiLink.href = project.link);
 
   uiElement = uiProject.querySelector(getClassName("text"));
   uiElement.innerHTML = project.description;
