@@ -39,13 +39,13 @@ const projects = [
     title: "Async-race",
     link: "https://mikalai-kazlou.github.io/async-race/",
     image: "./images/async-race.jpg",
-    description: "<b>Description:</b> Working with asynchronous functions.<br><br><b>Technologies:</b> HTML, SASS/SCSS, TypeScript, Webpack, ESLint, Prettier<br><br><b>Note:</b> The backend part of the application must be running"
+    description: "<b>Description:</b> Working with asynchronous functions.<br><br><b>Technologies:</b> HTML, SASS/SCSS, TypeScript, Webpack, ESLint, Prettier<br><br><b>Note:</b> <a class='link link_color_main' href='https://github.com/mikalai-kazlou/async-race/tree/master/server' target='_blank'><b>The backend part</b></a> of the application must be running"
   },
   {
     title: "Routine",
     link: "https://mikalai-kazlou-routine.netlify.app",
     image: "./images/routine.jpg",
-    description: "<b>Description:</b> Application for time management.<br><br><b>Technologies:</b> HTML, SASS/SCSS, Canvas, TypeScript, Webpack, Node.js, Express-server, MongoDB + mongoose, JWT, Hash + bcryptjs, Cookie<br><br><b>Note:</b> The backend part of the application must be running"
+    description: "<b>Description:</b> Application for time management.<br><br><b>Technologies:</b> HTML, SASS/SCSS, Canvas, TypeScript, Webpack, Node.js, Express-server, MongoDB + mongoose, Hash + bcryptjs, JWT, Cookie<br><br><b>Note:</b> <a class='link link_color_main' href='https://github.com/Mikalai-Kazlou/routine/blob/notes/api.md' target='_blank'><b>The backend part</b></a> of the application must be running"
   }
 ];
 
