@@ -57,13 +57,18 @@ footer {
 }
 
 .projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding: 2.5rem 5rem;
 }
 @media screen and (max-width: 1600px) {
   .projects {
+    padding: 1.5rem 2rem;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .projects {
+    grid-template-columns: 1fr;
     padding: 1.5rem 2rem;
   }
 }
@@ -79,14 +84,7 @@ footer {
 }
 
 .project {
-  flex-grow: 1;
-  width: 40%;
   padding: 1rem;
-}
-@media screen and (max-width: 1440px) {
-  .project {
-    width: auto;
-  }
 }
 .project__title {
   margin: 0 0 1rem 0;
