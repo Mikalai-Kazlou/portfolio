@@ -95,6 +95,14 @@ footer {
 .project {
   padding: 1rem;
 
+  @media screen and (max-width: 768px) {
+    padding: 3rem 1rem 1rem;
+  }
+
+  @media screen and (max-width: 620px) {
+    padding: 1.5rem 1rem 1rem;
+  }
+
   &__title {
     margin: 0 0 1rem 0;
     font-size: 2rem;
