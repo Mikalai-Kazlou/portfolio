@@ -33,7 +33,7 @@ const projects = [
     title: "Online-store",
     link: "https://mikalai-kazlou.github.io/online-store/",
     image: "./images/online-store.jpg",
-    description: "<b>Description:</b> Online-store.<br><br><b>Technologies:</b> HTML, SASS/SCSS, TypeScript, Webpack, ESLint, Prettier"
+    description: "<b>Description:</b> Online-store (Group project: 2 members).<br><br><b>Technologies:</b> HTML, SASS/SCSS, TypeScript, Webpack, ESLint, Prettier"
   },
   {
     title: "Async-race",
@@ -45,7 +45,13 @@ const projects = [
     title: "Routine",
     link: "https://mikalai-kazlou-routine.netlify.app",
     image: "./images/routine.jpg",
-    description: "<b>Description:</b> Application for time management.<br><br><b>Technologies:</b> HTML, SASS/SCSS, Canvas, TypeScript, Webpack, Node.js, Express-server, MongoDB + mongoose, Hash + bcryptjs, JWT, Cookie<br><br><b>Note:</b> <a class='link link_color_main' href='https://github.com/Mikalai-Kazlou/routine/blob/notes/api.md' target='_blank'><b>The backend part</b></a> of the application must be running"
+    description: "<b>Description:</b> Application for time management (Group project: 3 members).<br><br><b>Technologies:</b> HTML, SASS/SCSS, Canvas, TypeScript, Webpack, Node.js, Express-server, MongoDB + mongoose, Hash + bcryptjs, JWT, Cookie<br><br><b>Note:</b> <a class='link link_color_main' href='https://github.com/Mikalai-Kazlou/routine/blob/notes/api.md' target='_blank'><b>The backend part</b></a> of the application must be running"
+  },
+  {
+    title: "Online-store (SAPUI5)",
+    link: "https://mikalai-kazlou-online-store-sapui5.netlify.app",
+    image: "./images/online-store-sapui5.jpg",
+    description: "<b>Description:</b> Clone of the <a class='link link_color_main' href='https://mikalai-kazlou.github.io/online-store/' target='_blank'><b>Online-store</b></a> project using the SAPUI5 framework.<br><br><b>Technologies:</b> SAPUI5, HTML, CSS, JavaScript, Webpack"
   }
 ];
 
